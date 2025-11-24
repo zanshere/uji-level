@@ -22,7 +22,7 @@
                                 <label for="email">Email</label>
                                 <input id="email" type="email" class="form-control" name="email" tabindex="1"
                                     required autofocus>
-                  1              <div class="invalid-feedback">
+                              <div class="invalid-feedback">
                                     Please fill in your email
                                 </div>
                             </div>
