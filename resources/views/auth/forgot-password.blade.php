@@ -16,6 +16,7 @@
                     <div class="card-body">
                         <p class="text-muted">We will send a link to reset your password</p>
                         <form method="POST">
+                            @csrf
                             <div class="form-group">
                                 <label for="email">Email</label>
                                 <input id="email" type="email" class="form-control" name="email" tabindex="1"
@@ -31,7 +32,7 @@
                     </div>
                 </div>
                 <div class="simple-footer">
-                    Copyright &copy; Stisla 2018
+                    Copyright &copy; Tickets 2025
                 </div>
             </div>
         </div>

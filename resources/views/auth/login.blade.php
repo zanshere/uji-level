@@ -15,12 +15,14 @@
                     </div>
 
                     <div class="card-body">
-                        <form method="POST" action="#" class="needs-validation" novalidate="">
+                        <form method="POST" action="/postlogin" class="needs-validation" novalidate="">
+                            @csrf
+                            
                             <div class="form-group">
                                 <label for="email">Email</label>
                                 <input id="email" type="email" class="form-control" name="email" tabindex="1"
                                     required autofocus>
-                                <div class="invalid-feedback">
+                  1              <div class="invalid-feedback">
                                     Please fill in your email
                                 </div>
                             </div>
@@ -29,7 +31,7 @@
                                 <div class="d-block">
                                     <label for="password" class="control-label">Password</label>
                                     <div class="float-right">
-                                        <a href="auth-forgot-password.html" class="text-small">
+                                        <a href="/forgot-password" class="text-small">
                                             Forgot Password?
                                         </a>
                                     </div>
@@ -74,10 +76,10 @@
                     </div>
                 </div>
                 <div class="mt-5 text-muted text-center">
-                    Don't have an account? <a href="auth-register.html">Create One</a>
+                    Don't have an account? <a href="/register">Create One</a>
                 </div>
                 <div class="simple-footer">
-                    Copyright &copy; Stisla 2018
+                    Copyright &copy; Tickets 2025
                 </div>
             </div>
         </div>

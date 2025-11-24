@@ -7,7 +7,7 @@
                 <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100" onclick="window.location.href='{{ route('login') }}'">
                     Get Started
                 </button>
-                <button class="border border-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10">
+                <button class="border border-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10" onclick="window.location.href='#contact'">
                     Learn More
                 </button>
             </div>

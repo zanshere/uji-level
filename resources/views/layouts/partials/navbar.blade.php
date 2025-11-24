@@ -8,13 +8,21 @@
 
             <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline space-x-4">
-                    <a href="#home" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md"><i data-lucide="house" class="pr-1"></i>Home</a>
-                    <a href="#pricing" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md"><i data-lucide="circle-dollar-sign" class="pr-1"></i>Pricing</a>
-                    <a href="#contact" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md"><i data-lucide="phone" class="pr-1"></i>Contact</a>
+                    <a href="#home" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md flex items-center">
+                        <i data-lucide="home" class="w-4 h-4 mr-1"></i>Home
+                    </a>
+                    <a href="#pricing" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md flex items-center">
+                        <i data-lucide="circle-dollar-sign" class="w-4 h-4 mr-1"></i>Pricing
+                    </a>
+                    <a href="#contact" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md flex items-center">
+                        <i data-lucide="phone" class="w-4 h-4 mr-1"></i>Contact
+                    </a>
                 </div>
             </div>
 
-            <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md">
+            <button 
+                class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md"
+                onclick="window.location.href='{{ route('login') }}'">
                 Get Started
             </button>
         </div>

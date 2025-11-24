@@ -15,7 +15,8 @@
                     </div>
 
                     <div class="card-body">
-                        <form method="POST">
+                        <form method="POST" action="/postregister">
+                            @csrf
                             <div class="row">
                                 <div class="form-group col-6">
                                     <label for="frist_name">First Name</label>
@@ -100,7 +101,7 @@
                     </div>
                 </div>
                 <div class="simple-footer">
-                    Copyright &copy; Stisla 2018
+                    Copyright &copy; Tickets 2025
                 </div>
             </div>
         </div>
