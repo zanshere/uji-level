@@ -1,89 +1,107 @@
-<section id="pricing" class="py-20 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-4">
-        <div class="text-center mb-16">
-            <h2 class="text-4xl font-bold text-gray-900 mb-4">Simple Pricing</h2>
-            <p class="text-xl text-gray-600">Choose the perfect plan for your needs</p>
+<section id="konser" class="py-10">
+    <div class="container mx-auto px-4">
+        <div class="flex items-end justify-between mb-6">
+            <h2 class="text-2xl font-semibold">Konser Pilihan</h2>
+            <a href="#" class="px-3 py-1.5 border border-primary text-primary text-sm rounded-lg hover:bg-primary hover:text-white transition">
+                Lihat Semua
+            </a>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Basic Plan -->
-            <div class="bg-white rounded-lg shadow-lg p-8">
-                <div class="text-center">
-                    <i data-lucide="star" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
-                    <h3 class="text-2xl font-bold mb-2">Basic</h3>
-                    <div class="text-4xl font-bold mb-4">$9<span class="text-lg text-gray-600">/mo</span></div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <!-- CARD 1 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?q=80&w=1200&auto=format&fit=crop"
+                     class="w-full h-48 object-cover" alt="Konser 1">
+
+                <div class="p-4">
+                    <div class="flex justify-between items-center text-sm mb-2">
+                        <span class="inline-flex items-center gap-1 bg-gray-100 px-2 py-1 rounded text-gray-700">
+                            <i data-feather="map-pin" class="w-4"></i> Jakarta
+                        </span>
+                        <span class="inline-flex items-center gap-1 text-gray-500">
+                            <i data-feather="calendar" class="w-4"></i> 12 Jan 2026
+                        </span>
+                    </div>
+
+                    <h5 class="text-lg font-semibold">Sounds of Jakarta</h5>
+
+                    <p class="text-gray-500 flex items-center gap-2 mt-1">
+                        <i data-feather="clock" class="w-4"></i> Istora Senayan • 19:00 WIB
+                    </p>
                 </div>
-                <ul class="space-y-4 mb-8">
-                    <li class="flex items-center">
-                        <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
-                        <span>10 Projects</span>
-                    </li>
-                    <li class="flex items-center">
-                        <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
-                        <span>5GB Storage</span>
-                    </li>
-                    <li class="flex items-center">
-                        <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
-                        <span>Basic Support</span>
-                    </li>
-                </ul>
-                <button class="w-full bg-gray-100 text-gray-800 py-3 rounded-lg font-semibold hover:bg-gray-200">
-                    Get Started
-                </button>
+
+                <div class="p-4 pt-0 flex justify-between items-center">
+                    <span class="font-semibold">Mulai Rp350.000</span>
+                    <a href="checkout.html"
+   class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+    Beli Tiket
+</a>
+                </div>
             </div>
 
-            <!-- Pro Plan -->
-            <div class="bg-white rounded-lg shadow-xl p-8 transform scale-105 border-2 border-blue-600">
-                <div class="text-center">
-                    <div class="inline-block bg-blue-600 text-white px-4 py-1 rounded-full mb-4">Most Popular</div>
-                    <i data-lucide="crown" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
-                    <h3 class="text-2xl font-bold mb-2">Pro</h3>
-                    <div class="text-4xl font-bold mb-4">$29<span class="text-lg text-gray-600">/mo</span></div>
+            <!-- CARD 2 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=1200&auto=format&fit=crop"
+                     class="w-full h-48 object-cover" alt="Konser 2">
+
+                <div class="p-4">
+                    <div class="flex justify-between items-center text-sm mb-2">
+                        <span class="inline-flex items-center gap-1 bg-gray-100 px-2 py-1 rounded text-gray-700">
+                            <i data-feather="map-pin" class="w-4"></i> Bandung
+                        </span>
+                        <span class="inline-flex items-center gap-1 text-gray-500">
+                            <i data-feather="calendar" class="w-4"></i> 28 Feb 2026
+                        </span>
+                    </div>
+
+                    <h5 class="text-lg font-semibold">Green Stage Fest</h5>
+
+                    <p class="text-gray-500 flex items-center gap-2 mt-1">
+                        <i data-feather="clock" class="w-4"></i> Sabuga • 20:00 WIB
+                    </p>
                 </div>
-                <ul class="space-y-4 mb-8">
-                    <li class="flex items-center">
-                        <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
-                        <span>Unlimited Projects</span>
-                    </li>
-                    <li class="flex items-center">
-                        <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
-                        <span>50GB Storage</span>
-                    </li>
-                    <li class="flex items-center">
-                        <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
-                        <span>Priority Support</span>
-                    </li>
-                </ul>
-                <button class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700">
-                    Get Started
-                </button>
+
+                <div class="p-4 pt-0 flex justify-between items-center">
+                    <span class="font-semibold">Mulai Rp280.000</span>
+                    <a href="checkout.html"
+   class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+    Beli Tiket
+</a>
+                </div>
             </div>
 
-            <!-- Enterprise Plan -->
-            <div class="bg-white rounded-lg shadow-lg p-8">
-                <div class="text-center">
-                    <i data-lucide="building" class="w-12 h-12 text-blue-600 mx-auto mb-4"></i>
-                    <h3 class="text-2xl font-bold mb-2">Enterprise</h3>
-                    <div class="text-4xl font-bold mb-4">$99<span class="text-lg text-gray-600">/mo</span></div>
+            <!-- CARD 3 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?q=80&w=1200&auto=format&fit=crop"
+                     class="w-full h-48 object-cover" alt="Konser 3">
+
+                <div class="p-4">
+                    <div class="flex justify-between items-center text-sm mb-2">
+                        <span class="inline-flex items-center gap-1 bg-gray-100 px-2 py-1 rounded text-gray-700">
+                            <i data-feather="map-pin" class="w-4"></i> Surabaya
+                        </span>
+                        <span class="inline-flex items-center gap-1 text-gray-500">
+                            <i data-feather="calendar" class="w-4"></i> 9 Mar 2026
+                        </span>
+                    </div>
+
+                    <h5 class="text-lg font-semibold">Indie Night</h5>
+
+                    <p class="text-gray-500 flex items-center gap-2 mt-1">
+                        <i data-feather="clock" class="w-4"></i> Grand City • 18:30 WIB
+                    </p>
                 </div>
-                <ul class="space-y-4 mb-8">
-                    <li class="flex items-center">
-                        <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
-                        <span>Unlimited Projects</span>
-                    </li>
-                    <li class="flex items-center">
-                        <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
-                        <span>500GB Storage</span>
-                    </li>
-                    <li class="flex items-center">
-                        <i data-lucide="check" class="w-5 h-5 text-green-500 mr-2"></i>
-                        <span>24/7 Support</span>
-                    </li>
-                </ul>
-                <button class="w-full bg-gray-100 text-gray-800 py-3 rounded-lg font-semibold hover:bg-gray-200">
-                    Get Started
-                </button>
+
+                <div class="p-4 pt-0 flex justify-between items-center">
+                    <span class="font-semibold">Mulai Rp220.000</span>
+                    <a href="checkout.html"
+                    class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+                        Beli Tiket
+                    </a>
+                </div>
             </div>
+
         </div>
     </div>
 </section>
